@@ -4,7 +4,7 @@ from os.path import exists
 
 env.hosts = ['54.157.136.99', '54.173.109.63']
 env.user = 'ubuntu'
-env.key_filename = '~/path/to/your/private/key'
+env.key_filename = 'publickey'
 
 
 def do_deploy(archive_path):
